@@ -42,6 +42,8 @@ Data-Wrangling:
 
 # Results and Visualization
 
+![bar cart](https://github.com/OmimiCode/Data-Wrangling/blob/main/visual_plots_test/EU_Road%20Death%20Rate.jpg)
+
 
 ## TODO
 Secure the job and upadate project
