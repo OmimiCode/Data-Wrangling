@@ -42,8 +42,35 @@ Data-Wrangling:
 
 # Results and Visualization
 
+Having nornamlized and pre-processed the dataset by the python script, The data was sorted by “Road deaths per Million Inhabitants” column.
+Consequently, a bar chart was generated to get visual cue about the Road death per million inhabitant against the Country. 
+`See image below : `
+
 ![bar cart](https://github.com/OmimiCode/Data-Wrangling/blob/main/visual_plots_test/EU_Road%20Death%20Rate.jpg)
 
+## Deduced statistics
+    ```
+    ### 5 Lowest Road deaths per Million Inhabitants by Country
+    
+    United Kingdom	:: 28
+    Denmark	:: 30
+    Netherlands	::	31
+    Ireland	:: 31
+    Sweden :: 32
+    
+    ```
+   ### it can be deduced from this class that `United Kingdom` has the `lowest` Road deaths per Million Inhabitants of `28`
+   
+       ```
+    ### 5 Highest Road deaths per Million Inhabitants by Country
+    
+    Poland :: 76
+    Croatia ::	77
+    Latvia ::	78
+    Bulgaria ::	88
+    Romania	:: 96
+    ```
+   ### it can be deduced from this class that `Romania` has the `Highest` Road deaths per Million Inhabitants of `96`
 
 ## TODO
 Secure the job and upadate project
