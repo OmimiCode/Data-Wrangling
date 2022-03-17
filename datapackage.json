@@ -1,0 +1,127 @@
+{
+    "name": "Data Wrangling Challenge",
+    "title": "Road Safety Facts and Figures in the EU",
+    "version": "1.0.0",
+    "keywords": [
+        "European Union Countries",
+        "Road Safety",
+        "Data Science",
+        "Web Scrapping",
+        "Python",
+        "Pandas",
+        "HTTP Request",
+        "BS4 - BeautifulSoup",
+        "GDP per capita",
+        "Road deaths per Million Inhabitants",
+        "Population density",
+        "Vehicle ownership",
+        "Total road deaths"
+    ],
+    "licenses": [
+        {
+            "path": "http://opendatacommons.org/licenses/pddl/",
+            "title": "Open Data Commons Public Domain",
+            "name": "ODC-PDDL-1.0"
+        }
+    ],
+    "profile": "data-package",
+    "readme": "Data Wrangling \n An Open Project containing python script to get normalized CSV data file of Road Safety Facts and Figures in the EU via web scrapping",
+    "sources": [
+        {
+            "name": "European Union Road Safety Facts and Figures",
+            "title": "Road Safety Facts and Figures in the EU",
+            "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Barnabas Oretan",
+            "title": "Software Engineer",
+            "email": "barnabas.oretan@gmail.com",
+            "path": "http://www.github.com/omimiCode",
+            "role": "author"
+        }
+    ],
+    "resources": [
+        {
+            "dpp:streaming": true,
+            "encoding": "utf-8",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "name": "EU_ROAD_SAFETY",
+            "path": "data/EU_ROAD_SAFETY_data_curated.csv",
+            "altPath": "",
+            "profile": "tabular-data-resource",
+            "schema": {
+                "fields": [
+
+                    {
+                        "format": "any",
+                        "name": "Country",
+                        "type": "text"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Year",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Area",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Population",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "GDP per capita",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Population density",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Vehicle ownership",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Total road deaths",
+                        "type": "number"
+                    },
+                    {
+                        "format": "Default",
+                        "name": "Road deaths per Million Inhabitants",
+                        "type": "number"
+                    }
+                   
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "title": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "graph",
+            "label": "Graph",
+            "resourceName": "",
+            "type": "Graph",
+            "state": {
+                "group": "a-resource-field-name",
+                "series": [
+                    "another-resource-field-name"
+                ],
+                "graphType": "bar"
+            }
+        }
+    ]
+}
