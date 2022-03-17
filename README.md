@@ -4,7 +4,13 @@ An Open Project containing python script to get normalized CSV data file of Road
 Click this https://hackmd.io/@datopian/junior-software-engineer-challenge to access project overview.
 >> You can also access the Wikipedia documentation on the subject [here](https://en.wikipedia.org/wiki/Road_safety_in_Europe)
 
-
+## Author
+![avatar](https://avatars.githubusercontent.com/u/69190825?s=400&u=0153b80ec358c574751303b63e6e8e3753e44e34&v=4)
+Name: Barnabas Oretan
+Title: Software Engineer
+Email: barnabas.oretan@gmail.com
+Url: [github.com/omimiCode](http://www.github.com/omimiCode)
+           
 # Preparation
 You will need 
   1. `Python 3.6` or `greater`, 
