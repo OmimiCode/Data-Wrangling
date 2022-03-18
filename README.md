@@ -10,11 +10,10 @@ You will need
   1. `Python 3.6` or `greater`, 
   2. a `virtual environment`
   3. the underlisted `library` or `packages` to run the python script script (*all of which can be found in the requirement.txt file in the project directory.*)
-> #### beautifulsoup4 == 4.10.0  || run "pip install beautifulsoup4"
-> #### pip install pandas || run "pandas == 1.4.1"
-> #### pip install requests || run "requests == 2.27.1"
-> #### pip install lxml || run "lxml == 4.8.0"
-> #### pip install matplotlib || run "matplotlib === 3.5.1 "
+
+> ```bash
+> pip install -r requirements.txt
+> ```
 
 
 # Project Structure
